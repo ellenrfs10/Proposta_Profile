@@ -33,6 +33,16 @@ body{
 
 }
 
+.middle-grid{
+
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    padding: 40px;
+    
+
+}
+
+
 .main-page-wrapper{
     display: flex;
     margin: 0 auto;   
@@ -40,11 +50,6 @@ body{
     align-items: center;
     flex-direction: row;
     max-width: 1400px;
-
-}
-
-.box-text{
-
 
 }
 
@@ -66,6 +71,7 @@ h2{
 
 }
 
+
 p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -73,7 +79,9 @@ p{
     line-height: 1.7; 
 
 }
-
+.font-size{
+    font-size: 3rem;
+}
 .hero-card-text{
 
     display: flex;
