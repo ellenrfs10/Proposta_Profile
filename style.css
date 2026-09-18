@@ -24,6 +24,30 @@ body{
 
 }
 
+.main-grid{
+
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    padding: 40px;
+    gap: 40px;
+
+}
+
+.main-page-wrapper{
+    display: flex;
+    margin: 0 auto;   
+    padding: 0 40px;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1400px;
+
+}
+
+.box-text{
+
+
+}
+
 .page-wrapper{
     max-width: 1400px;
     margin: 0 auto;   
@@ -46,7 +70,7 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: #6b6f76;
-     line-height: 1.7; 
+    line-height: 1.7; 
 
 }
 
@@ -58,6 +82,14 @@ p{
     flex-direction: column;
     padding: 40px;
 
+}
+
+.box-text{
+    display: flex;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 40px;
 }
 
 .hero-card-image{
