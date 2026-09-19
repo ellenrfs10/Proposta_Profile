@@ -237,3 +237,55 @@ p {
   background-color: #ffffff;
   border-radius: 8px;
 }
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+
+}
+
+.form-field label{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #542200;
+    font-weight: bold;
+}
+
+.form-field input,
+.form-field textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+}
+
+
+.form-field textarea{
+    min-height: 100px;
+    resize: vertical;
+}
+
+.linkedin-button, .GitHub-button{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #542200;
+    border-radius: 4px;
+    color: #542200;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.CV-button{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
