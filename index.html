@@ -170,7 +170,7 @@
       </section>
 
       <section class="grid-form">
-        <div>
+        <div class="hero-card-text">
           <h2 class="form-h2">Let's Connect</h2>
           <p class="form-p">
             Open to conversartion on enterprise seeking for Business
@@ -179,31 +179,35 @@
             systems.
           </p>
 
-          <button class="linkedin-button" type="button">
-            <a
-              href="https://www.linkedin.com/in/ellen-raquel-santos-/?locale=en-US"
-            ></a
-            >Linkedin
-          </button>
-          <button class="GitHub-button" type="button">
-            <a href="https://github.com/ellenrfs10"></a>GitHub
-          </button>
-          <button class="CV-button" type="button">
-            <a
-              href="https://drive.google.com/file/d/1LHKcqW2ApGiWdiiD4wzL8AsSYSH_jDOL/view?usp=sharing"
-            ></a
-            >Download my CV
-          </button>
-        </div>
+          <div class="button-body">
 
-        <form>
-          <div container-formulario>
-            <label class="" type="name" for="name"> Your Name</label>
-            <label class="" type="company" for="Company"> Your Company</label>
-            <label class="" type="email" for="email"> Your email</label>
-            <label class="" type="text" for="text"> text</label>
-            <button class="badge" type="submit">Send</button>
+            <a class="linkedin-button" href="https://www.linkedin.com/in/ellen-raquel-santos-/?locale=en-US"> Linkedin</a>
+            <a class="GitHub-button" href="https://github.com/ellenrfs10">GitHub</a>                
+            
           </div>
+
+          <div>
+            <a class="CV-button" href="https://drive.google.com/file/d/1LHKcqW2ApGiWdiiD4wzL8AsSYSH_jDOL/view?usp=sharing"> [Download my CV]</a>
+          </div>
+        </div> 
+
+        <form class="hero-card-text">
+          <div class="form-field">
+            <label for="name">Name/Organization</label>
+            <input type="text" id="name" placeholder="Ellen Santos // Enterprise System Corp">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Contact Email</label>
+            <input type="email" id="email" name="email" placeholder="ellen@enterprise.com">
+          </div>
+
+           <div class="form-field">
+            <label for="message">Project / Opportunity Inquiry</label>
+            <textarea id="message" name="message" placeholder="Tell me about the role or architecture challenge..."></textarea>
+          </div>
+
+         <button class="cta-button" type="submit">Transmit Message →</button> 
         </form>
       </section>
     </main>
