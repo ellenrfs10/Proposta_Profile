@@ -7,6 +7,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  box-sizing: border-box;
+  gap: 40px;
 }
 
 body {
@@ -95,6 +97,20 @@ p {
   background-color: #ffffff;
   flex-direction: column;
   padding: 40px;
+}
+
+.border{
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #e8d5c4;
+  
+}
+
+.nav-and-cta{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
 }
 
 .hero-card-image {
