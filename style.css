@@ -39,7 +39,7 @@ body {
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
   padding: 40px;
   gap: 0px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); */
   border-radius: 12px;
 }
 
@@ -133,6 +133,7 @@ p {
   object-fit: cover;
   border-radius: 12px;
   display: block;
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) */;
 }
 
 .badge {
