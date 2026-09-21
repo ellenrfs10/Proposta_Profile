@@ -38,7 +38,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
   padding: 40px;
-  gap: 20px;
+  gap: 0px;
 }
 
 .new-grid{
@@ -91,6 +91,15 @@ p {
   flex-direction: column;
   padding: 40px;
 }
+
+.middle-card-text{
+  
+  display: flex;  
+  background-color: #ffffff;
+  flex-direction: column;
+  padding: 40px;
+}
+
 
 .box-text {
   display: flex;
@@ -347,6 +356,9 @@ p {
     background-color: #FBEFE4;
     border-radius: 24px 24px 0 0;
     z-index: 1;
+    /* box-shadow: #542200; */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    
     
 } 
 
