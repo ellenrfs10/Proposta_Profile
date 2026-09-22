@@ -85,6 +85,8 @@ p {
 .font-size {
   font-size: 3rem;
   color: #542200;
+  position:relative;
+  text-align: center;
 }
 .hero-card-text {
   display: flex;
