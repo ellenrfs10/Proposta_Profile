@@ -158,6 +158,7 @@ p {
 
 .cta-button {
   display: flex;
+  gap: 12px;
   align-items: center;
   border-radius: 4px;
   background-color: #c2652a;
@@ -166,6 +167,7 @@ p {
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .footer-letter{
@@ -182,6 +184,7 @@ p {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: bold;
+  text-decoration: none;
 
 }
 
@@ -189,6 +192,7 @@ p {
   color: #fbefe4;
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-letter {
@@ -246,6 +250,7 @@ p {
 }
 
 .cta-button-secundary {
+  display:flex;
   background-color: #fbefe4;
   color: #542200;
   border: 1px solid #542200;
@@ -331,19 +336,27 @@ p {
 
 .linkedin-button,
 .GitHub-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;  
+  gap: 6px;
+  margin-top: 12px;
   padding: 8px 16px;
   border: 1px solid #542200;
   border-radius: 4px;
   color: #542200;
+  background-color: #f0ebe4;
   text-decoration: none;
   font-size: 0.85rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .CV-button {
   display: flex;
   margin-top: 12px;
   align-items: center;
+  text-align: center;
   padding: 10px 24px;
   background-color: #542200;
   color: #fff;
