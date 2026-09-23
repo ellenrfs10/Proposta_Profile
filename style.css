@@ -260,6 +260,10 @@ p {
   gap: 12px;
 }
 
+.button-body a{
+  text-decoration: none;
+}
+
 .cta-button-secundary {
   display:flex;
   background-color: #fbefe4;
