@@ -443,12 +443,7 @@ p {
   .page-wrapper {
     padding: 0 20px;
   }
- /*  .hero {
-    grid-template-columns: 1fr;
-    padding: 24px 20px;
-    min-height: auto;
-    position: static;
-  } */
+
   .hero-card-image {
     height: 320px;
   }
